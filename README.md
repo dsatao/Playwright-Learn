@@ -38,6 +38,17 @@ Before you begin, ensure you have the following installed:
     5. ***Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n)***
       - true
 4. **Folder Structure Created:**
+
+
+
+
+
+
+
+
+
+
+
    ![alt text](<images/Screenshot 2026-02-16 at 5.08.22 PM.png>)
 
 ### Writing Your First Test
