@@ -27,8 +27,8 @@ Before you begin, ensure you have the following installed:
     ```
     You will be prompted with below options.
     - Need to install the following packages:
-      create-playwright@1.17.139
-      Ok to proceed? (y) y
+      \n create-playwright@1.17.139
+      \n Ok to proceed? (y) y
     - ✔ Do you want to use TypeScript or JavaScript? · TypeScript
     - ✔ Where to put your end-to-end tests? · tests
     - ✔ Add a GitHub Actions workflow? (Y/n) · true
