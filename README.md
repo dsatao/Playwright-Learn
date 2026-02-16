@@ -32,11 +32,13 @@ Before you begin, ensure you have the following installed:
     2. ***Do you want to use TypeScript or JavaScript?***
       - TypeScript
     3. ***Where to put your end-to-end tests?***
-      - · tests
+      - tests
     4. ***Add a GitHub Actions workflow? (Y/n)***
-      - · true
+      - true
     5. ***Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n)***
-      - · true
+      - true
+4. **Folder Structure Created:**
+   ![alt text](<Screenshot 2026-02-16 at 5.08.22 PM.png>)
 
 ### Writing Your First Test
 
