@@ -38,9 +38,14 @@ Before you begin, ensure you have the following installed:
     5. ***Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n)***
       - true
 4. **Folder Structure Created:**
-   <div data-with-frame="true">
+
+
+
+
+
+
+
    ![alt text](<images/Screenshot 2026-02-16 at 5.08.22 PM.png>)
-   </div>
 ### Writing Your First Test
 
 1. **Create a new file for your test:**
