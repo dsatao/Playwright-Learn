@@ -26,16 +26,16 @@ Before you begin, ensure you have the following installed:
     npm init playwright@latest
     ```
     You will be prompted with below options.
-    a. ***Need to install the following packages:***
+    1. ***Need to install the following packages:***
       - create-playwright@1.17.139
       - Ok to proceed? (y) y
-    b. ***Do you want to use TypeScript or JavaScript?***
+    2. ***Do you want to use TypeScript or JavaScript?***
       - TypeScript
-    c. ***Where to put your end-to-end tests?***
+    3. ***Where to put your end-to-end tests?***
       - · tests
-    d. ***Add a GitHub Actions workflow? (Y/n)***
+    4. ***Add a GitHub Actions workflow? (Y/n)***
       - · true
-    e. ***Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n)***
+    5. ***Install Playwright browsers (can be done manually via 'npx playwright install')? (Y/n)***
       - · true
 
 ### Writing Your First Test
