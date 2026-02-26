@@ -26,7 +26,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     // ✅ Uses EC2 URL from environment variable
-    baseURL: process.env.BASE_URL || 'http://localhost:5000',
+    baseURL: process.env.BASE_URL || 'http://52.5.210.245',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     trace: 'on-first-retry',

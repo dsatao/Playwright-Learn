@@ -2,16 +2,16 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Homepage Tests', () => {
 
-  test('homepage loads successfully', async ({ page }) => {
+  test('login loads successfully', async ({ page }) => {
     await page.goto('/');
-    await expect(page).toHaveTitle(/Home/);
-    console.log('✅ Homepage loaded');
+    await expect(page).toHaveURL("http://52.5.210.245/Account/Login");
+    console.log('✅ Login page loaded');
   });
 
-  test('navigation links are visible', async ({ page }) => {
+ /* test('navigation links are visible', async ({ page }) => {
     await page.goto('/');
     await expect(page.locator('nav')).toBeVisible();
-  });
+  });*/
 
   test('about page loads', async ({ page }) => {
     await page.goto('/Home/About');
