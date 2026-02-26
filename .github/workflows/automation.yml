@@ -40,7 +40,7 @@ jobs:
           BASE_URL="${{ github.event.client_payload.base_url || github.event.inputs.base_url || 'http://52.5.210.245' }}"
           echo "Testing against: $BASE_URL"
           for i in {1..5}; do
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" $BASE_URL)
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" $BASE_URL/Account/Login)
             echo "Attempt $i — HTTP Status: $STATUS"
             if [ "$STATUS" -eq 200 ]; then
               echo "✅ App is reachable!"
