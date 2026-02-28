@@ -19,6 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
+    permissions:
+      contents: read
+      checks: write
+      pull-requests: write
+
     steps:
       - name: ✅ Checkout Playwright repo
         uses: actions/checkout@v4
@@ -33,14 +38,14 @@ jobs:
         run: npm ci
 
       - name: 🌐 Install Playwright browsers
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --with-deps
 
       - name: 🔍 Verify app is reachable before testing
         run: |
           BASE_URL="${{ github.event.client_payload.base_url || github.event.inputs.base_url || 'http://52.5.210.245' }}"
           echo "Testing against: $BASE_URL"
           for i in {1..5}; do
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" $BASE_URL)
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" $BASE_URL/Account/Login)
             echo "Attempt $i — HTTP Status: $STATUS"
             if [ "$STATUS" -eq 200 ]; then
               echo "✅ App is reachable!"
