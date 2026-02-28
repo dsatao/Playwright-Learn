@@ -1,32 +1,56 @@
-<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="9.558620000000001">
-<testsuite name="example.spec.ts" timestamp="2026-02-26T04:22:07.249Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.038" errors="0">
-<testcase name="Homepage Tests › login loads successfully" classname="example.spec.ts" time="4.067">
+<testsuites id="" name="" tests="9" failures="0" skipped="0" errors="0" time="15.767123">
+<testsuite name="example.spec.ts" timestamp="2026-02-28T22:14:15.475Z" hostname="chromium" tests="3" failures="0" skipped="0" time="22.245" errors="0">
+<testcase name="Homepage Tests › login loads successfully" classname="example.spec.ts" time="7.599">
 <system-out>
 <![CDATA[✅ Login page loaded
+✅ Login successful, homepage loaded
 ]]>
 </system-out>
 </testcase>
-<testcase name="Homepage Tests › about page loads" classname="example.spec.ts" time="3.971">
+<testcase name="Homepage Tests › logout buttons are visible" classname="example.spec.ts" time="7.412">
+<system-out>
+<![CDATA[✅ Login page loaded
+✅ Login successful, homepage loaded
+]]>
+</system-out>
+</testcase>
+<testcase name="Homepage Tests › about page loads" classname="example.spec.ts" time="7.234">
 </testcase>
 </testsuite>
-<testsuite name="example.spec.ts" timestamp="2026-02-26T04:22:07.249Z" hostname="firefox" tests="2" failures="0" skipped="0" time="3.438" errors="0">
-<testcase name="Homepage Tests › login loads successfully" classname="example.spec.ts" time="1.776">
+<testsuite name="example.spec.ts" timestamp="2026-02-28T22:14:15.475Z" hostname="firefox" tests="3" failures="0" skipped="0" time="6.054" errors="0">
+<testcase name="Homepage Tests › login loads successfully" classname="example.spec.ts" time="3.172">
 <system-out>
 <![CDATA[✅ Login page loaded
+✅ Login successful, homepage loaded
 ]]>
 </system-out>
 </testcase>
-<testcase name="Homepage Tests › about page loads" classname="example.spec.ts" time="1.662">
+<testcase name="Homepage Tests › logout buttons are visible" classname="example.spec.ts" time="1.79">
+<system-out>
+<![CDATA[✅ Login page loaded
+✅ Login successful, homepage loaded
+]]>
+</system-out>
+</testcase>
+<testcase name="Homepage Tests › about page loads" classname="example.spec.ts" time="1.092">
 </testcase>
 </testsuite>
-<testsuite name="example.spec.ts" timestamp="2026-02-26T04:22:07.249Z" hostname="webkit" tests="2" failures="0" skipped="0" time="1.545" errors="0">
-<testcase name="Homepage Tests › login loads successfully" classname="example.spec.ts" time="0.854">
+<testsuite name="example.spec.ts" timestamp="2026-02-28T22:14:15.475Z" hostname="webkit" tests="3" failures="0" skipped="0" time="5.209" errors="0">
+<testcase name="Homepage Tests › login loads successfully" classname="example.spec.ts" time="2.35">
 <system-out>
 <![CDATA[✅ Login page loaded
+✅ Login successful, homepage loaded
 ]]>
 </system-out>
 </testcase>
-<testcase name="Homepage Tests › about page loads" classname="example.spec.ts" time="0.691">
+<testcase name="Homepage Tests › logout buttons are visible" classname="example.spec.ts" time="1.9">
+<system-out>
+<![CDATA[✅ Login page loaded
+✅ Login successful, homepage loaded
+]]>
+</system-out>
+</testcase>
+<testcase name="Homepage Tests › about page loads" classname="example.spec.ts" time="0.959">
 </testcase>
 </testsuite>
 </testsuites>
